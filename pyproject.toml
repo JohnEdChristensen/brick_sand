@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "brick"
+version = "0.1.0"
+description = ""
+authors = ["John Christensen <johnedchristensen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+mypy = "^1.6.1"
+numpy = "^1.26.1"
+pyxel = "^1.9.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
