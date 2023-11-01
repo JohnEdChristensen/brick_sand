@@ -103,5 +103,7 @@ class App:
         for x,row in enumerate(self.grid):
             for y,particle in enumerate(row):
                 pyxel.rect(x,y,1,1,particle.value)
+        pyxel.text(2,2,"Left Click: Sand",13)
+        pyxel.text(2,10,"Right Click: Water",13)
 
 App()
